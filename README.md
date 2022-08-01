@@ -1,5 +1,18 @@
 # Trabajo Final  - Infraestructura para la Implementacion de Sistemas IoT
 
+## Links de interes
+
+## De lectura
+
+- [WIRELESS SENSOR NETWORKS Technology, Protocols, and Applications]()
+
+- [Handbook of Wireless Sensor Networks: Issues and Challenges in Current Scenario’s]()
+
+
+## De aplicación
+
+- [Real-Time Performance of a Self-Powered Environmental IoT Sensor Network System]()
+
 
 ## Consignas generales
 
