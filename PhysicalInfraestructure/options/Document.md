@@ -4,7 +4,7 @@
 
 Se estudiaron 3 opciones : GSM/LTE, SigFox y Lora. 
 
-Se observó que a nivel general la zona no posee una buena cobertura GSM/LTE(se adjuntan los documentos correspondientes obtenidos del link https://www.nperf.com/es/map/AR/-/152383.Claro-Mvil/signal/?ll=-40.42813457627493&lg=-63.584999999999994&zoom=4). 
+Se observó que a nivel general la zona no posee una buena cobertura GSM/LTE(se adjuntan los documentos correspondientes obtenidos del link https://www.nperf.com/). 
 
 Por lo cual se descarta utilizar GSM/LTE.
 
@@ -29,9 +29,9 @@ Para seleccionar entre Lora y SigFox se presenta la siguiente tabla:
 
 (***** )https://ar.mouser.com/ProductDetail/Semtech/LR1120IMLTRT?qs=MyNHzdoqoQKzng%252BALV%2FZpQ%3D%3D
 
-Aún cuando ambas tecnologías son buenas candidatas, el hecho de que sigfox tenga una carga útil de 12bytes inclina la balanza a utilizar Lora.
+Aún cuando ambas tecnologías son buenas candidatas, el hecho de que sigfox tenga una carga útil de 12 bytes inclina la balanza a utilizar Lora.
 
-Dentro de las bandas en que puede ser utilizo Lora, se selecciona la correspondiente a 915Mhz ya que se encuentra dentro de las bandas no "Licenciadas" según la RESOL-2019-4653-APN-ENACOM#JGM
+Dentro de las bandas en que puede ser utilizado Lora, se selecciona la correspondiente a 915Mhz ya que se encuentra dentro de las bandas no "Licenciadas" según la RESOL-2019-4653-APN-ENACOM#JGM
 
 ## Capa de percepción:
 Para seleccionar los nodos sensores se parte de la premisa que deben poder utilizarse en el territorio nacional y que sean de bajo costo.
@@ -77,7 +77,7 @@ Marca: Milesight
 
 Modelo: EM500-SMTC
 
-Precio: 630 eur
+Precio: 630 eur FOB
 
 Distribuidor(link): https://www.reichelt.com/
 
@@ -95,5 +95,32 @@ Parámetros Lora:
                 Lora device Class: Class (A)
                 FCC: aprobado(documentación adjunta)
 
+* Opción 3: (*) mide temperatura del suelo no del ambiente por lo que se desecha
+
+<img src="./nodes/sensor3.webp" width="20%">
+
+Marca: Seeed Technology
+
+Modelo: 101990565 (LoRa-S-470/868/915-Soil MT-01)
+
+Precio: 219 USD FOB
+
+Distribuidor(link):  https://www.digikey.com
+
+Bateria: como mínimo 3A
+
+Protección: ip66- ip65
+
+Temperatura de operación: -40 ºC - 85ºC
+
+Parámetros Lora: 
+
+                RF power: 16 dBm
+                RF sensitivity: -136.5 dBm
+                Frecuency: 915Mhz
+                FCC: aprobado(documentación adjunta)
+
+
+De las 3 opciones presentadas se selecciona la primera. Cabe mencionar que en la opción 3 se presenta la información de la resistencia UV del gabinete... importante si se ubicasen en lugares sin cobertura.
 
 
