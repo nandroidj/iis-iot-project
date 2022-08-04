@@ -58,14 +58,42 @@ Bateria: 10 años
 
 Proteccion: ip67
 
+Temperatura de operacion: -40ºC a 65ºC
+
 Parámetros Lora: 
 
                  RF Power: 23 dBm       
-                 RF Sensivity: -137 dBm
+                 RF Sensitivity: -137 dBm
                  Bandas : todas las bandas globales
                  Lora device Class: Class (A)
                  Normativas: FCC 15.247 RSS-247 y FCC 15.209 RSS-Gen
 
 
 * Opción 2:
+
+<img src="./nodes/sensor2.jpg" width="20%">
+
+Marca: Milesight
+
+Modelo: EM500-SMTC
+
+Precio: 630 eur
+
+Distribuidor(link): https://www.reichelt.com/
+
+Bateria: 4-10 años
+
+Protección: ip66
+
+Temperatura de operacion: -30ºC + 70ºC
+
+Parámetros Lora:
+                
+                RF Power: 20dBm
+                RF Sensitivity: -147 dBm
+                Frecuency: US915
+                Lora device Class: Class (A)
+                FCC: aprobado(documentación adjunta)
+
+
 
