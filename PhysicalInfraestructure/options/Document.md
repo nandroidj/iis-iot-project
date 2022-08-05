@@ -132,7 +132,7 @@ Por otra parte, lo bueno de la primera opción es que directamente se coloca en 
 ---
 ### Selección del gateway:
 
-Nuevamente se recurre a un sistema ya homologado que es comercializado por la firma SEMAK (MTCDT-L4N1-246A-915-US
+Se recurre a un sistema ya homologado que es comercializado por la firma SEMAK ( fabricante: Multitech , MTCDT-L4N1-246A-915-US
 ) cuyo costo es de 812 usd FOB en Mouser(https://ar.mouser.com/)(En Semak por razones de publico conocimiento no se publican precios).
 
 <img src="./gateway/gateway.jpeg" width="20%">
@@ -142,6 +142,20 @@ Parámetros Lora:
 Frecuencia: 915 MHz
 Capacidad del canal: 8 canales half duplex
 Potencia de salida: 27 dBm máximo antes de la antena
-Alimentación : 9VDC 1.7A 
+Alimentación : 9VDC 1.7A =15W 
 Conexionado: puerto ethernet
+
+
+### Alimentación del gateway:
+
+Se selecciona una UPS monofásica Kaise:
+Ups Online Monofasica Kaise 3kva 3000w Rack Tower Fp 1.0
+
+<img src="./UPS/UPS.png" width="20%">
+
+
+
+### Selección del protecciones:
+
+Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes
 
