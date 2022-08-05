@@ -132,18 +132,25 @@ Por otra parte, lo bueno de la primera opción es que directamente se coloca en 
 ---
 ### Selección del gateway:
 
-Se recurre a un sistema ya homologado que es comercializado por la firma SEMAK ( fabricante: Multitech , MTCDT-L4N1-246A-915-US
+* Opción 1: Indoor
+Sistema ya homologado que es comercializado por la firma SEMAK ( fabricante: Multitech , MTCDT-L4N1-246A-915-US
 ) cuyo costo es de 812 usd FOB en Mouser(https://ar.mouser.com/)(En Semak por razones de publico conocimiento no se publican precios).
 
 <img src="./gateway/gateway.jpeg" width="20%">
 
 
 Parámetros Lora:
+
 Frecuencia: 915 MHz
+
 Capacidad del canal: 8 canales half duplex
+
 Potencia de salida: 27 dBm máximo antes de la antena
+
 Alimentación : 9VDC 1.7A =15W 
+
 Conexionado: puerto ethernet
+
 
 
 ### Alimentación del gateway:
@@ -153,9 +160,33 @@ Ups Online Monofasica Kaise 3kva 3000w Rack Tower Fp 1.0
 
 <img src="./UPS/UPS.png" width="20%">
 
+Se deberá alimentar al sistema desde la linea de alimentación por lo que se necesita tramitar una boca correspondiente. En caso de falla de linea de alimentación y sin ninguna otra carga esta UPS alimentaría al gateway durante 3000w/15W~200 hs, o el equivalente a 8 días. 
+
+Precio: 1450000 pesos(https://articulo.mercadolibre.com.ar) (consultado 4/8/2022)
 
 
 ### Selección del protecciones:
 
-Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes
+Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes.
 
+* Opción 1: 
+
+<img src="./protections/A41992.jpg" width="20%">
+
+Código: ACCIOT-RSP01  
+Fabricante: CITEL
+Distribuidor: Elemon 
+Cod Distribuidor: KLK02900
+Precio: 185.38 USD (4/8/2022)
+
+Características:
+Return loss: >20dB
+Insertion loss: <0.2db
+Rango de frecuencia: 800- 2200 Mhz
+Impedancia: 50
+Maxima corriente de descarga: 50kA
+Protección: ip65
+
+* Opción 2
+
+### Selección del antenas:
