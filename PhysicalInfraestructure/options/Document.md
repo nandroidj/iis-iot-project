@@ -133,8 +133,9 @@ Por otra parte, lo bueno de la primera opción es que directamente se coloca en 
 ### Selección del gateway:
 
 * Opción 1: Indoor
+
 Sistema ya homologado que es comercializado por la firma SEMAK ( fabricante: Multitech , MTCDT-L4N1-246A-915-US
-) cuyo costo es de 812 usd FOB en Mouser(https://ar.mouser.com/)(En Semak por razones de publico conocimiento no se publican precios).
+) cuyo costo es de 812 usd FOB en Mouser(https://ar.mouser.com/)(En Semak por razones de publico conocimiento no se publican precios). Permite conectarse a TTN.
 
 <img src="./gateway/gateway.jpeg" width="20%">
 
@@ -150,6 +151,23 @@ Potencia de salida: 27 dBm máximo antes de la antena
 Alimentación : 9VDC 1.7A =15W 
 
 Conexionado: puerto ethernet
+
+* Opción 2: Indoor
+
+Sistema no homologado. Comercializado en AMAZON y ALIEXPRESS(fabricante ). Costo: 150 USD(FOB) (https://es.aliexpress.com/)
+
+<img src="./gateway/LG01-P.png" width="20%">
+
+Parámetros Lora:
+
+Frecuencia: 915 MHz(banda 1)
+
+Potencia de salida: 20 dBm máximo antes de la antena
+
+Alimentación : 9~24VDC 
+
+Conexionado: puerto ethernet
+
 
 
 
