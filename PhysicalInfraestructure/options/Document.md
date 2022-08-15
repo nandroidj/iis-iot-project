@@ -150,7 +150,9 @@ Potencia de salida: 27 dBm máximo antes de la antena
 
 Alimentación : 9~32VDC 1.7A =15W 
 
-Conexionado: puerto ethernet
+Conexionado: puerto ethernet opcion LTE.
+
+
 
 * Opción 2: Indoor
 
@@ -286,7 +288,13 @@ Para la simulación se utilizaron 2 programas, radio-planner(en el cual se tuvo 
 
 ## Estimación de parámetros de la radiobase
 
-Para estimar la sensitividad de la radio base se utilizo la herramienta LoRa Modem calculator tool de Semtek:
+Para estimar la sensitividad de la radio base se utilizo la herramienta LoRa Modem calculator tool de Semtek. Se cargaron las especificaciones de los sensores(ver manual... SF=12, BW=150Khz) y se estimo un payload de 20 bytes.
+
 <img src="./gateway/calculo-modem.bmp" style="padding-left:100px; " width="90%">
+
+
+## Upstream desde radio base hasta la web
+
+El gateway propuesto posee comunicación Ethernet y LTE. De todos modos no hay señal suficiente en la zona... por lo que se propone una bajada de ethernet.
 
 
