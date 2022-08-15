@@ -124,7 +124,7 @@ Parámetros Lora:
                 FCC: aprobado(documentación adjunta)
 
 
-De las 3 opciones presentadas se selecciona la primera. Cabe mencionar que en la opción 3 se presenta la información de la resistencia UV del gabinete... importante si se ubicasen en lugares sin cobertura.
+De las 3 opciones presentadas se selecciona la primera. Cabe mencionar que en la opción 3 se presenta la información de la resistencia UV del gabinete... importante si se ubicasen en lugares sin proteccin del sol.
 Por otra parte, lo bueno de la primera opción es que directamente se coloca en el suelo por lo que no hay que realizar ninguna obra.
 
 
@@ -168,6 +168,7 @@ Alimentación : 9~24VDC
 
 Conexionado: puerto ethernet
 
+Para agregar una conexion gprs:
 
 
 
@@ -205,6 +206,22 @@ Impedancia: 50
 Maxima corriente de descarga: 50kA
 Protección: ip65
 
+
+
+### kit Pararrayos:
+
+Se selecciona un pararrayos franklin 5 roscas: \
+<img src="./pararrayos/pararrayos.png" style="padding-left:100px; " width="20%">
+
+Código:PF512\
+Marca: LPD\
+Link: https://articulo.mercadolibre.com.ar/MLA-612419800-pararrayos-kit-de-pararrayos-segun-norma-iram-2184-_JM#position=15&search_layout=stack&type=item&tracking_id=2528588c-fc04-4932-a284-7b6650bc6fc8
+
+Costo: 8.900 pesos ~ 66 USD
+
+El kit provee el cable de bajada y la jabalina.
+
+
 ### Selección de antena:
 
 Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes.
@@ -236,18 +253,40 @@ Normativas aplicables, según ENACOM:\
 
 Cabe destacar que el titular de una estación en funcionamiento asume la responsabilidad de las obras e instalaciones accesorias que deban ejecutarse para instalar una estación radioeléctrica, atribuyéndose la responsabilidad técnica de una obra civil, al proyectista y al director de la misma, quedando encuadrada dicha situación en lo establecido en los artículos 1273 y siguientes del Código Civil y Comercial de la Nación"
 
+Por lo cual, se recomienda contratar a un Ingeniero civil que se encarge del trabajo y la gestión.
+
+### Cableado:
+#### kit de bajada de tensión:
+
+<img src="./Electricidad/kit-instalacion.png" style="padding-left:100px; " width="40%">
+
+Precio:13210 pesos ~ 100usd
 
 
-### Pararrayos:
-
-Se selecciona un pararrayos franklin 5 roscas: \
-Código:PF512\
-Marca: LPD\
-Link: https://articulo.mercadolibre.com.ar/MLA-1147297255-pararrayos-franklin-5-puntas-rosca-12-_JM#position=1&search_layout=stack&type=item&tracking_id=91fef639-97d4-4bfe-85db-1fe6f76e1f8c
-
-Costo: 8.900 pesos ~ 66 USD
 
 
+Se debe contratar un servicio de provision de energía electrica en EJESA (https://www.ejesa.com.ar/info/pwa).
+Según la página y las tarifas vigentes, para conexiones subterraneas monofásicas el importe es 18386.13 pesos.
 
+## Mano de Obra instalación electrica:
+
+Costo: 300000 pesos
+
+# Simulación de la cobertura 
+
+Para la simulación se utilizaron 2 programas, radio-planner(en el cual se tuvo muchos problemas para poder utilizar tablas de excel ya que no se disponía del excel original y se utilizaba libreoffice, imposibilitando la captura/guardado de configuración de la radiobase y de los nodos sensores) y una aplicación disponible online (https://www.ve2dbe.com/english1.html) la cual permitió realizar un análisis bastante similar.
+
+## Parámetros de la simulación
+
+
+<img src="./coverage/parametros-cobertura.png" style="padding-left:100px; " width="90%">
+
+## Simulación de la cobertura
+<img src="./coverage/cobertura.png" style="padding-left:100px; " width="90%">
+
+## Estimación de parámetros de la radiobase
+
+Para estimar la sensitividad de la radio base se utilizo la herramienta LoRa Modem calculator tool de Semtek:
+<img src="./gateway/calculo-modem.bmp" style="padding-left:100px; " width="90%">
 
 
