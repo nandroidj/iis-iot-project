@@ -36,7 +36,7 @@ Dentro de las bandas en que puede ser utilizado Lora, se selecciona la correspon
 ## Capa de percepción:
 ---
 Para seleccionar los nodos sensores se parte de la premisa que deben poder utilizarse en el territorio nacional y que sean de bajo costo.
-Para utilizarce los mismos deben estar inscriptos en el RAMATEL, o en su defecto poderse inscribir(se deberá realizar los ensayos correspondientes en un laboratorio y luego hacer la presentación en Enacom). Generalmente, si un dispositivo cumple con normas FCC el ensayo de laboratorio es un mero trámite ya que se corrobora su funcionamiento. Para la importación/comercialización del mismo en el territorio nacional, la firma importadora debe estar inscripta también en el organismo con un representante Técnico y un representante legal. El representante técnico es quien gestiona en Enacom el proceso.
+Para utilizarse los mismos deben estar inscriptos en el RAMATEL, o en su defecto poderse inscribir(se deberá realizar los ensayos correspondientes en un laboratorio y luego hacer la presentación en Enacom). Generalmente, si un dispositivo cumple con normas FCC el ensayo de laboratorio es un mero trámite ya que se corrobora su funcionamiento. Para la importación/comercialización del mismo en el territorio nacional, la firma importadora debe estar inscripta también en el organismo con un representante Técnico y un representante legal. El representante técnico es quien gestiona en Enacom el proceso.
 Una vez finalizado, se entrega un nro de aprobación que debe estar impreso en el dispositivo y sea legible. La validez del certificado de aprobación es de 3 años.
 
 La lista de laboratorios acreditados para realizar los ensayos se puede obtener de : https://www.enacom.gob.ar/laboratorios-acreditados_p349
@@ -179,7 +179,7 @@ Se selecciona una UPS 24 Algcom NOBREAK FN:Algcom Fuente Ups 24v 10a -no Break-(
 
  
 
-Precio: 68.291 pesos 
+Precio: 68.291 pesos = 507.34 USD
 
 (https://articulo.mercadolibre.com.ar/MLA-1131812198-algcom-fuente-ups-24v-10a-no-break-no-powerteh-no-gralf-_JM#position=6&search_layout=stack&type=item&tracking_id=714c2a11-9695-423e-ad56-8ad536c78eee ) (consultado 4/8/2022)
 
@@ -188,7 +188,6 @@ Precio: 68.291 pesos
 
 Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes.
 
-* Opción 1: 
 
 <img src="./protections/A41992.jpg" style="padding-left:100px; " width="20%">
 
@@ -206,4 +205,49 @@ Impedancia: 50
 Maxima corriente de descarga: 50kA
 Protección: ip65
 
-### Selección del antenas:
+### Selección de antena:
+
+Para la selección se busca en proveedores nacionales como ser Elemon, Semak, Electrocomponentes.
+
+<img src="./Antennas/Antenna.png" style="padding-left:100px; " width="40%">
+
+
+Código: ACCIOT-KAN02
+Fabricante: Kerlink\
+Distribuidor: ELEMON
+Precio: 306.3 USD
+
+Características:   
+Ganancia Máxima: 6dBi \
+Resistencia al viento: 150MPH
+
+### Elevación de la antena:
+
+Los modelos de cobertura se analizaron suponiendo una altura de 15 mts sobre la superficie, por lo que se propone utilizar un monoposte.
+
+<img src="./monoposte/monoposte.jpg" style="padding-left:100px; " width="40%">
+
+Para estimar el costo de una estructura de estas características se consulta al trabajo "Plan de negocios para la instalacion de torres de comunicaciones" de Mariano Alexis Orpella(Marzo 2022)(https://repositorio.uca.edu.ar/bitstream/123456789/13812/1/plan-negocio-instalaci%C3%B3n-torres.pdf) .
+
+En el mismo, se presenta que un monoposte convencional de 30 mts cuesta 4.530.369,9 pesos argentinos, es decir 33658.1 usd aproximadamente.
+
+Normativas aplicables, según ENACOM:\
+ "La regulación referida a la obra civil de la estructura soporte de la antena, (mástiles / torres / anclajes / arriostramiento, etc.) no es competencia del ENACOM, por lo que no puede ejercer jurisdicción sobre la misma.  Tal situación queda determinada en los artículos 39, 40 y 41 de la Ley Nacional 19798/72, y en la Resolución Nº 795 CNT/92, ratificada por la Resolución 302 SC/99. Por lo tanto, los reclamos y consultas relacionados con la instalación, el deterioro o mal estado propios o relacionados con las estructuras soporte, deberán dirigirse a las municipalidades.
+
+Cabe destacar que el titular de una estación en funcionamiento asume la responsabilidad de las obras e instalaciones accesorias que deban ejecutarse para instalar una estación radioeléctrica, atribuyéndose la responsabilidad técnica de una obra civil, al proyectista y al director de la misma, quedando encuadrada dicha situación en lo establecido en los artículos 1273 y siguientes del Código Civil y Comercial de la Nación"
+
+
+
+### Pararrayos:
+
+Se selecciona un pararrayos franklin 5 roscas: \
+Código:PF512\
+Marca: LPD\
+Link: https://articulo.mercadolibre.com.ar/MLA-1147297255-pararrayos-franklin-5-puntas-rosca-12-_JM#position=1&search_layout=stack&type=item&tracking_id=91fef639-97d4-4bfe-85db-1fe6f76e1f8c
+
+Costo: 8.900 pesos ~ 66 USD
+
+
+
+
+
