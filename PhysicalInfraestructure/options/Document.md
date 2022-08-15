@@ -47,7 +47,7 @@ Otro punto muy importante a considerar, es que la mayoría de estos equipos pose
 
 * Opción 1: 
 
-<img src="./nodes/sensor1.webp" width="20%">
+<img src="./nodes/sensor1.webp" style="padding-left:100px; "  width="20%">
 
 Marca: TekTelic (Canada)
 
@@ -74,7 +74,7 @@ Parámetros Lora:
 
 * Opción 2:
 
-<img src="./nodes/sensor2.jpg" width="20%">
+<img src="./nodes/sensor2.jpg" style="padding-left:100px; "  width="20%">
 
 Marca: Milesight
 
@@ -100,7 +100,7 @@ Parámetros Lora:
 
 * Opción 3: (*) mide temperatura del suelo no del ambiente por lo que se desecha
 
-<img src="./nodes/sensor3.webp" width="20%">
+<img src="./nodes/sensor3.webp" style="padding-left:100px; "  width="20%">
 
 Marca: Seeed Technology
 
@@ -137,7 +137,7 @@ Por otra parte, lo bueno de la primera opción es que directamente se coloca en 
 Sistema ya homologado que es comercializado por la firma SEMAK ( fabricante: Multitech , MTCDT-L4N1-246A-915-US
 ) cuyo costo es de 812 usd FOB en Mouser(https://ar.mouser.com/)(En Semak por razones de publico conocimiento no se publican precios). Permite conectarse a TTN.
 
-<img src="./gateway/gateway.jpeg" width="20%">
+<img src="./gateway/gateway.jpeg" style="padding-left:100px; "  width="20%">
 
 
 Parámetros Lora:
@@ -148,7 +148,7 @@ Capacidad del canal: 8 canales half duplex
 
 Potencia de salida: 27 dBm máximo antes de la antena
 
-Alimentación : 9VDC 1.7A =15W 
+Alimentación : 9~32VDC 1.7A =15W 
 
 Conexionado: puerto ethernet
 
@@ -156,7 +156,7 @@ Conexionado: puerto ethernet
 
 Sistema no homologado. Comercializado en AMAZON y ALIEXPRESS(fabricante ). Costo: 150 USD(FOB) (https://es.aliexpress.com/)
 
-<img src="./gateway/LG01-P.png" width="20%">
+<img src="./gateway/LG01-P.png" style="padding-left:100px; "  width="20%">
 
 Parámetros Lora:
 
@@ -173,14 +173,15 @@ Conexionado: puerto ethernet
 
 ### Alimentación del gateway:
 
-Se selecciona una UPS monofásica Kaise:
-Ups Online Monofasica Kaise 3kva 3000w Rack Tower Fp 1.0
+Se selecciona una UPS 24 Algcom NOBREAK FN:Algcom Fuente Ups 24v 10a -no Break-(no Powerteh-no Gralf)
 
-<img src="./UPS/UPS.png" width="20%">
+<img src="./UPS/UPS2.png" style="padding-left:100px;" width="20%">
 
-Se deberá alimentar al sistema desde la linea de alimentación por lo que se necesita tramitar una boca correspondiente. En caso de falla de linea de alimentación y sin ninguna otra carga esta UPS alimentaría al gateway durante 3000w/15W~200 hs, o el equivalente a 8 días. 
+ 
 
-Precio: 1450000 pesos(https://articulo.mercadolibre.com.ar) (consultado 4/8/2022)
+Precio: 68.291 pesos 
+
+(https://articulo.mercadolibre.com.ar/MLA-1131812198-algcom-fuente-ups-24v-10a-no-break-no-powerteh-no-gralf-_JM#position=6&search_layout=stack&type=item&tracking_id=714c2a11-9695-423e-ad56-8ad536c78eee ) (consultado 4/8/2022)
 
 
 ### Selección del protecciones:
@@ -189,7 +190,7 @@ Para la selección se busca en proveedores nacionales como ser Elemon, Semak, El
 
 * Opción 1: 
 
-<img src="./protections/A41992.jpg" width="20%">
+<img src="./protections/A41992.jpg" style="padding-left:100px; " width="20%">
 
 Código: ACCIOT-RSP01  
 Fabricante: CITEL
@@ -204,7 +205,5 @@ Rango de frecuencia: 800- 2200 Mhz
 Impedancia: 50
 Maxima corriente de descarga: 50kA
 Protección: ip65
-
-* Opción 2
 
 ### Selección del antenas:
