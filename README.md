@@ -31,7 +31,7 @@
 
 + **diseño** de un sistema que permita:
 
-  * Infraestructura física (pasiva + activa): estructuras de soporte, equipamientos de transmisión/recepción, sistemas de gestión, mantenimiento, provisión de energía eléctrica, baterías, etc.
+  * **Infraestructura física (pasiva + activa)**: estructuras de soporte, equipamientos de transmisión/recepción, sistemas de gestión, mantenimiento, provisión de energía eléctrica, baterías, etc.
 
     Se deberán justificar las elecciones adoptadas:
       - dimensionamiento
@@ -41,7 +41,7 @@
 
 
 
-  * Infraestructura lógica: componentes en la nube, conectividad a Internet, forma dealmacenamiento de la información, forma de acceso a la información, etc.
+  * Infraestructura lógica: componentes en la nube, conectividad a Internet, forma de almacenamiento de la información, forma de acceso a la información, etc.
  
     Se deberán justificar las elecciones adoptadas:
       - evaluar las velocidades de datos necesarias
@@ -65,11 +65,12 @@
 - Incluir hojas de datos o enlaces web con las especificaciones de los elementos principales adoptados (radiobases/gateways, nodos sensores, antenas con los diagramas de radiación, entre otros elementos).
 
 - Evaluar, principalmente en función de la tecnología y el tráfico de datos, los recursos de nivel físico necesarios como ser: ancho de banda del canal de RF, potencia de transmisión, sensibilidad del receptor, cálculo de enlace (link budget requerido), alturas y ganancias de las antenas, etc.
+
 - Verificar la cobertura de la red empleando alguna herramienta de planificación de RF, considerando los perfiles del terreno en función de la ubicación de los elementos de la red (radiobases/gateways + nodos).
 
 - Analizar los requerimientos de permisos para obras civiles, autorizaciones de uso del espectro, autorizaciones radioeléctricas, homologaciones, entre otras que pudieran corresponder.
 
-- Indicar las suposiciones asumidas en el entorno de trabajo (coberturas de redes mviles existentes, tendidos de fibra óptica, entre otros) y material adicional empleado (notas de aplicación, etc.) que impacten en la solución adoptada.
+- Indicar las suposiciones asumidas en el entorno de trabajo (coberturas de redes moviles existentes, tendidos de fibra óptica, entre otros) y material adicional empleado (notas de aplicación, etc.) que impacten en la solución adoptada.
 
 
 ## Entregables
@@ -88,24 +89,4 @@ una reunión de consulta de forma virtual (mediante GMeet, Zoom, etc.).
 
 - El material resultante (documento y presentación), deberán compartirse a través del
 Google Drive, enviando los links correspondientes a los e-mails de los docentes (lopez.yoel25@gmail.com; jmatias@gmail.com).ó
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
